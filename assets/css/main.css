@@ -3377,6 +3377,20 @@ sub,sup{
 #particles-js .particles-js-canvas-el{
     height:100vh!important
 }
+
+.header_wrap {
+  /* The image used */
+  background-image: url("../Photo/DSC_8260-min.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .header{
     font-family:'Montserrat',sans-serif;
     z-index:1;
