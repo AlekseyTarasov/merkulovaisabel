@@ -3389,6 +3389,16 @@ sub,sup{
   background-size: cover;
 }
 
+#header_wrap::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+
 .header{
     font-family:'Montserrat',sans-serif;
     z-index:1;
