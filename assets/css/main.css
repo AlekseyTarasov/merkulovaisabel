@@ -3379,7 +3379,7 @@ sub,sup{
 }
 
 #header_wrap {
-  background-image: url("../images/DSC_8260-min.jpg");
+  background:rgba(0, 0, 0, 0.6), url("../images/DSC_8260-min.jpg");
   min-height:100vh;
 
   display:flex;
