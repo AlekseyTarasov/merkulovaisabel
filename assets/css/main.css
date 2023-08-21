@@ -3429,7 +3429,7 @@ sub,sup{
     line-height:1;
     color:#fff;
     margin-top:10px;
-    letter-spacing: 0.8px
+    letter-spacing: 3px
 }
 @media only screen and (min-width:768px){
     .header .site-description{
