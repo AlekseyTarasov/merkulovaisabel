@@ -3428,7 +3428,8 @@ sub,sup{
     display:block;
     line-height:1;
     color:#fff;
-    margin-top:10px
+    margin-top:10px;
+    letter-spacing: 0.8px
 }
 @media only screen and (min-width:768px){
     .header .site-description{
