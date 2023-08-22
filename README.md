@@ -1,2 +1,0 @@
-# merkulovaisabel
-portfolio for merkulovaisabel

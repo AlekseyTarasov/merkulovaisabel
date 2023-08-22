@@ -1,19 +1,16 @@
 # Site settings
-title: Merkulova Isabel
-description: Model Portfolio
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+title: site-title
+tagline: site-tagline
+description: site-description
+image: /assets/images/image.png
+url: https://github.com/meebuhs/arco
+github_url: https://github.com/meebuhs
+resume: true
+author: Alex Sharpe
+lang: en-AU
 
-# User settings
-username: Merkulova Isabel
-user_description: 
-user_title: PORTFOLIO
-email: mauriurraco@gmail.com
-instagram_username: mauriciourraco7
-facebook_username: mauricio.urraco
-linkedin_username: murraco
-github_username:  murraco
-
-
-exclude: ['package.json', 'src', 'node_modules', 'vendor']
-
+# Build settings
+theme: arco
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
