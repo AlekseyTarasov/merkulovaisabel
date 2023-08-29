@@ -3378,16 +3378,25 @@ sub,sup{
     height:100vh!important
 }
 
-.bg {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-    
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+#header_wrap {
+
+
+  display:flex;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+#header_wrap::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
 
 .header{
     font-family:'Montserrat',sans-serif;
