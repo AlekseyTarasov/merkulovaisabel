@@ -10,7 +10,7 @@
 <script>
 
       var hoverDistort = new hoverEffect({
-            parent: document.querySelector('.wrapper'),
+            parent: document.querySelector('.photo'),
             intensity: 0.5,
             image1: '/assets/images/img_one.jpg',
             image2: '/assets/images/img_two.jpg',
@@ -23,7 +23,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
 
 $(document).ready(function() {
 
-$('.wrapper').hover(         
+$('.photo').hover(         
       function () {
       anime.timeline({loop: false})
       .add({
