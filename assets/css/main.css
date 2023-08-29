@@ -3369,7 +3369,7 @@ sub,sup{
       width: 800px;
       height: 600px;
       position: absolute;
-/*          top: 50%;
+/*    top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); */
 }
@@ -3390,7 +3390,7 @@ sub,sup{
 }
 
 #header_wrap {
-
+background: #161616;
 
   display:flex;
 
@@ -3399,7 +3399,7 @@ sub,sup{
   background-size: cover;
 }
 
-#header_wrap::before {
+/* #header_wrap::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -3408,6 +3408,8 @@ sub,sup{
     left: 0px;
     background-color: rgba(0,0,0,0.5);
 }
+
+*/ 
 
 .header{
     font-family:'Montserrat',sans-serif;
