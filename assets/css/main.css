@@ -21,7 +21,7 @@ html{
 }
 body{
     margin:0;
-      background-color: #161616;
+    background-color: #212121;
 }
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{
     display:block
@@ -3373,6 +3373,10 @@ sub,sup{
 /*    top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); */
+}
+
+.site-hq{
+    position: absolute;
 }
 
 
