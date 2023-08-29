@@ -3375,20 +3375,6 @@ sub,sup{
       transform: translate(-50%, -50%); */
 }
 
-.hero-title {
-      position: absolute;
-      top: 35%;
-      left: 30%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-family: "Cosi Azure";
-      font-size: 84px;
-}
-
-.hero-title .letter {
-      display: inline-block;
-      opacity: 0;
-}
 
 #header_wrap {
   background-color: #161616;
