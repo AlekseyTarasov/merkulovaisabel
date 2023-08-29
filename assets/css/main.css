@@ -3365,17 +3365,28 @@ sub,sup{
         top:-10px
     }
 }
-#particles-js{
-    background:#1a222c;
-    display:flex;
-    vertical-align:bottom;
-    min-height:100vh;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment:fixed
+.wrapper {
+      width: 800px;
+      height: 600px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
 }
-#particles-js .particles-js-canvas-el{
-    height:100vh!important
+
+.hero-title {
+      position: absolute;
+      top: 35%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: "Cosi Azure";
+      font-size: 84px;
+}
+
+.hero-title .letter {
+      display: inline-block;
+      opacity: 0;
 }
 
 #header_wrap {
