@@ -20,7 +20,8 @@ html{
     -webkit-text-size-adjust:100%
 }
 body{
-    margin:0
+    margin:0;
+      background-color: #161616;
 }
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{
     display:block
@@ -3390,10 +3391,8 @@ sub,sup{
 }
 
 #header_wrap {
-background-color: #161616;
-
+  background-color: #161616;
   display:flex;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
