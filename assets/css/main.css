@@ -211,10 +211,10 @@ sub,sup{
       width: 800px;
       height: 600px;
 
-top: 50%;
+/*    top: 50%;
       left: 50%;
     position: absolute;
-      transform: translate(-50%, -50%); 
+      transform: translate(-50%, -50%); */
 }
 
 .site-hq{
@@ -358,7 +358,6 @@ top: 50%;
 .tile__title {
     margin-left: -10%;
     white-space: nowrap;
-    text-transform: uppercase;
        font-family: 'Libre Baskerville', serif;
     font-size:32px;
 }
