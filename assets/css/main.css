@@ -2450,7 +2450,7 @@ sub,sup{
 */ 
 
 .header{
-    font-family:'Montserrat',sans-serif;
+    font-family: 'Libre Baskerville', serif;
     z-index:1;
     text-align:center;
     color:#fff;
