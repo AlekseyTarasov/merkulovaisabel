@@ -19,10 +19,14 @@
 </script>
 
 <script>
-        $('.post').masonry({
-  // options
+// init Masonry
+var $grid = $('.post').masonry({
   itemSelector: '.post-item',
-  columnWidth: 400
+  percentPosition: true,
+  columnWidth: '.post-sizer'
 });
-
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});  
 </script>

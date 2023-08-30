@@ -430,5 +430,25 @@ sub,sup{
 }
 
 
-.post-item { width: 200px; }
-.post-item--width2 { width: 400px; }
+/* clear fix */
+.post:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.post-sizer,
+.post-item {
+  width: 33.333%;
+}
+
+.post-item {
+  float: left;
+}
+
+.post-item img {
+  display: block;
+  max-width: 100%;
+}
