@@ -2624,7 +2624,12 @@ sub,sup{
     color:#fff
 }
  
-
+#content{
+    padding: 0 10px;
+    margin-top: -10px;
+    max-width: 100%;
+    margin: 0 auto;
+}
 
 
  #posts ul {
