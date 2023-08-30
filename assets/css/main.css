@@ -421,7 +421,6 @@ sub,sup{
 .content{
     padding: 0 10px;
     max-width: 100%;
-
 }
 
 .post{
@@ -445,7 +444,10 @@ sub,sup{
 
 .post-item {
   float: left;
-  padding: 10px;
+}
+
+.post-item-padding{
+   padding: 10px; 
 }
 
 .post-item img {
