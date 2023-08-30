@@ -1,19 +1,9 @@
 # Site settings
 title: Merkulova Isabel
 description: Model Portfolio
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Merkulova Isabel
 user_description: 
 user_title: PORTFOLIO
-email: mauriurraco@gmail.com
-instagram_username: mauriciourraco7
-facebook_username: mauricio.urraco
-linkedin_username: murraco
-github_username:  murraco
-
-
-exclude: ['package.json', 'src', 'node_modules', 'vendor']
-
+email: gmail.com
