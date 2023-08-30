@@ -4,20 +4,15 @@
   <body>
       {% include header.html %}
 
-<div id='content'>
-      <div id='posts'>
-        <ul>
+<section class="content">
+      <section class="post">
           {% for post in site.categories.blog %}
-            <li class='post'>
-              {% if post.image %}
+            <div class='post-item'>
                 <img class='post-image' src="{{post.image}}" />
-              {% endif %}
-            </li>
+            </div>
           {% endfor %}
-        </ul>
-      </div>
-      <div style='clear:both'></div>
-    </div>
+      </section>
+    </section>
       {% include footer.html %}
   </body>
 </html>

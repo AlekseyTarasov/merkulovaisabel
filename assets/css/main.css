@@ -436,8 +436,16 @@ sub,sup{
 }
 
 #posts ul li {
-
+    float: left;
     padding: 17px 20px;
 }
 
+#posts ul li img {
+    //width: 95%;
+}
+
+
+.post-image{
+    width: 250px;
+}
 
