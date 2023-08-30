@@ -492,3 +492,17 @@ sub,sup{
 .title__offset--medium {
     margin-left: 23%;
 }
+
+
+.tile__cta {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 6.4%;
+    line-height: 1.5;
+}
+
+.btn-inline {
+    display: inline-block;
+    line-height: 1.5;
+    border-bottom: 0.1rem solid;
+}
