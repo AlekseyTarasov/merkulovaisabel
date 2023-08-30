@@ -418,34 +418,22 @@ sub,sup{
     color:#fff
 }
  
-#content{
+.content{
     padding: 0 10px;
     max-width: 100%;
 
 }
 
-#posts{
+.posts{
     margin: 0 auto;
 }
 
 
- #posts ul {
-    list-style:none; 
-    margin: auto;
-    padding: 0px;
-}
 
 #posts ul li {
-    float: left;
+
     padding: 17px 20px;
 }
 
-#posts ul li img {
-    //width: 95%;
-}
 
-
-.post-image{
-    width: 250px;
-}
 
