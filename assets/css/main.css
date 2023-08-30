@@ -246,8 +246,8 @@ sub,sup{
     text-align:center;
     color:#fff;
     position:absolute;
-    top:20%;
-    left:50%;
+    top:40%;
+    left:60%;
     margin:0 auto;
     -webkit-transform:translate(-50%,-50%);
     transform:translate(-50%,-50%)
