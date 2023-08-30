@@ -456,7 +456,6 @@ sub,sup{
     }
 }
 
-
 .post-item {
   float: left;
 }
@@ -490,7 +489,7 @@ sub,sup{
 
 @media only screen and (min-width: 768px)
 .title__offset--medium {
-    margin-left: 23%;
+    margin-left: 50%;
 }
 
 
