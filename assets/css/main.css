@@ -424,16 +424,11 @@ sub,sup{
 
 }
 
-.posts{
+.post{
     margin: 0 auto;
-}
-
-
-
-#posts ul li {
-
     padding: 17px 20px;
 }
 
 
-
+.post-item { width: 200px; }
+.post-item--width2 { width: 400px; }
