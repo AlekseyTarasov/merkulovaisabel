@@ -1,6 +1,6 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
- @import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Raleway);
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab|Antic+Slab);
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 button,hr,input{
     overflow:visible
 }
@@ -2349,7 +2349,7 @@ body{
     font-size:100%;
     line-height:1.5;
     color:#555;
-    font-family:'Antic Slab',serif
+    font-family: 'Libre Baskerville', serif;
 }
 article,aside,figcaption,figure,footer,header,nav,section{
     display:block
