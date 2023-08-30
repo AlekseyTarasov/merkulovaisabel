@@ -445,6 +445,7 @@ sub,sup{
 
 .post-item {
   float: left;
+  padding: 10px;
 }
 
 .post-item img {
