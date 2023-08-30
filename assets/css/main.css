@@ -504,5 +504,4 @@ sub,sup{
 .btn-inline {
     display: inline-block;
     line-height: 1.5;
-    border-bottom: 0.1rem solid;
 }
