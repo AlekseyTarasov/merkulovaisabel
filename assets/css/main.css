@@ -362,6 +362,13 @@ sub,sup{
     font-size:32px;
 }
 
+@media only screen and (min-width:768px){
+    .header .tile__title{
+        margin:0;
+        font-size:48px
+    }
+}
+
 .title__offset {
     display: block;
     margin-left: 50%;
