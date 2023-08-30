@@ -358,6 +358,9 @@ sub,sup{
 .tile__title {
     margin-left: -10%;
     white-space: nowrap;
+    text-transform: uppercase;
+       font-family: 'Libre Baskerville', serif;
+    font-size:32px;
 }
 
 .title__offset {
