@@ -2639,21 +2639,9 @@ sub,sup{
 }
 
 #posts ul li {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
+display: flex;
     padding: 17px 20px;
-    background: rgba(78,205,196,.8);
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
+
 }
 
 #posts ul li img {
@@ -2661,4 +2649,7 @@ sub,sup{
 }
 
 
+.post-image{
+    width: 250px;
+}
 
