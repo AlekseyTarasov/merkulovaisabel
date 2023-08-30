@@ -439,8 +439,23 @@ sub,sup{
 
 .post-sizer,
 .post-item {
-  width: 33.333%;
+  width: 50%;
 }
+
+@media only screen and (min-width: 1024px) {
+    .post-sizer,
+    .post-item {
+        width:33.33%
+    }
+}
+
+@media only screen and (min-width: 1540px) {
+    .post-sizer,
+    .post-item {
+        width:25%
+    }
+}
+
 
 .post-item {
   float: left;
@@ -454,6 +469,8 @@ sub,sup{
   display: block;
   max-width: 100%;
 }
+
+
 
 
 .line-ctn {
