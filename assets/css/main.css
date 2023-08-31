@@ -222,14 +222,14 @@ sub,sup{
 }
 
 
-#header_wrap {
+/* #header_wrap {
   display:flex;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* #header_wrap::before {
+ #header_wrap::before {
     content: "";
     position: absolute;
     top: 0px;
