@@ -252,33 +252,6 @@ sub,sup{
     -webkit-transform:translate(-50%,-50%);
     transform:translate(-50%,-50%)
 }
-.header .site-title{
-    font-family: 'Libre Baskerville', serif;
-    font-size:32px;
-    display:block;
-    line-height:1;
-    color:#fff
-}
-@media only screen and (min-width:768px){
-    .header .site-title{
-        margin:0;
-        font-size:48px
-    }
-}
-.header .site-description{
-    font-family: 'Source Sans 3', sans-serif;
-    font-size:18px;
-    display:block;
-    line-height:1;
-    color:#fff;
-    margin-top:10px;
-    letter-spacing: 3px
-}
-@media only screen and (min-width:768px){
-    .header .site-description{
-        font-size:24px
-    }
-}
 
 .footer{
     background:;
