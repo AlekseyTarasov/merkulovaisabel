@@ -225,8 +225,9 @@ sub,sup{
     top: 50%;
       left: 50%;
     position: absolute;
-      transform: translate(-50%, -50%); */
+      transform: translate(-50%, -50%); 
 }
+*/
 
 .photo-warp {
       width: 800px;
