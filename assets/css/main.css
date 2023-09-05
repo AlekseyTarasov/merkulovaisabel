@@ -210,18 +210,13 @@ sub,sup{
 
 
 .header {
-padding: 30px 20px 0;
+    padding: 30px 20px 10px;
 }
 
 
 .photo {
       width: 800px;
       height: 600px;
-}
-
-
-.photo-warp {
-
 }
 
 .site-hq{
