@@ -1,6 +1,7 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.cdnfonts.com/css/heldane-text?styles=149227,149223');
 
 button,hr,input{
     overflow:visible
@@ -273,7 +274,7 @@ sub,sup{
 
 .site-title {
     text-transform: capitalize;
-    font-family: Heldane display,sans-serif;
+    font-family: 'Heldane Text', sans-serif;
     font-size: 6rem;
     font-weight: 500;
     line-height: 1.1
