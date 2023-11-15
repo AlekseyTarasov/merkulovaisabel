@@ -1,5 +1,4 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
 @import url('https://fonts.cdnfonts.com/css/heldane-text?styles=149227,149223');
 
@@ -280,21 +279,7 @@ sub,sup{
     line-height: 1.1
 }
 
-.footer{
-    padding:10px 0;
-    margin-top:100px;
-    text-align:center;
-    color:#fff
-}
-.footer .love{
-    color:red
-}
-.footer a{
-    text-decoration:none;
-    margin:0;
-    color:#fff
-}
- 
+
 .content{
     padding: 0 10px;
     max-width: 100%;
@@ -389,3 +374,24 @@ sub,sup{
     display: inline-block;
     line-height: 1.5;
 }
+
+
+
+
+
+.footer{
+    font-size: 1.25rem;
+    padding:10px 0;
+    margin-top:100px;
+    text-align:center;
+    color:#fff
+}
+.footer .love{
+    color:red
+}
+.footer a{
+    text-decoration:none;
+    margin:0;
+    color:#fff
+}
+ 
