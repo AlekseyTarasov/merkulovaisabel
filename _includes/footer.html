@@ -7,6 +7,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
 <script src="{{ '/assets/js/hover-effect.umd.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/simpleLightbox.min.js' | prepend: site.baseurl }}"></script>
 
 <script>
       var hoverDistort = new hoverEffect({
@@ -29,4 +30,8 @@
     $grid.imagesLoaded().progress( function() {
       $grid.masonry();
 });  
+</script>
+
+<script>
+    $('.post img').simpleLightbox();
 </script>
